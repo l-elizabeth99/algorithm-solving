@@ -8,7 +8,7 @@ BOJ와 SWEA 문제 풀이 기록을 정리한 저장소입니다.
 ## Repository Structure
 ```text
 algorithm-solving
-├ course # 수업 및 실습 문제 (기존 학습 흐름 유지)
+├ course       # 수업 및 실습 문제 (기존 학습 흐름 유지)
 │ └ MMDD_type  # SWEA 문제 (수업 유형 기준)
 │
 ├ personal     # 개인적으로 풀이하며 유형별로 정리한 문제
