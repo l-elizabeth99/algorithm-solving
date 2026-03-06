@@ -9,18 +9,35 @@
 ```text
 algorithm-solving
 ├ course # 수업 및 실습 문제 (기존 학습 흐름 유지)
-│ └ date_유형
+│ └ MMDD_type  # SWEA 문제 (수업 유형 기준)
 │
 ├ personal # 개인적으로 풀이하며 유형별로 정리한 문제
 │ ├ BOJ
-│ │ └ 유형
+│ │ └ type
 │ └ SWEA
-│   └ 유형
+│   └ type
 │
 └ study # 스터디에서 풀이한 문제
-  └ date
-    ├ BOJ
-    └ SWEA
+  └ MMDD
+```
+
+### Structure Rule
+- **BOJ 문제**
+  - 폴더 안에 바로 `.py` 파일이 위치합니다.
+
+- **SWEA 문제**
+  - 폴더 안에 `문제번호 폴더`가 생성됩니다.
+  - 해당 폴더 안에 `input / output / .py` 파일이 포함됩니다.
+
+### Example
+```text
+study
+└ 0115
+  ├ 1234.py          # BOJ
+  └ 1208
+    ├ input.txt
+    ├ output.txt
+    └ 1208.py        # SWEA
 ```
 
 ---
