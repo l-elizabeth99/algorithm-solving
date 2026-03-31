@@ -31,6 +31,9 @@ algorithm-solving
   - 폴더 안에 `문제번호 폴더`가 생성됩니다.
   - 해당 폴더 안에 `input / output / .py or .java` 파일이 포함됩니다.
 
+- **personal 폴더**
+  - 해당 폴더의 파일명은 `P문제번호.java`로 통일합니다.
+
 ### Example
 ```text
 study
